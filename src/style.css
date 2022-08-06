@@ -47,7 +47,14 @@ table {
 	border-spacing: 0;
 }
 /* CSS RESET */
+:root{
+	--black: #131315;
+	--teak: #B58D68;
+	--light-blue: #6D8C9F;
+	--gray: #596F89;
+}
 
+/* VARIABLES */
 #contents{
 	width: 100%;
 	height: 100vh;
