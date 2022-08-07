@@ -4,10 +4,17 @@ const navigation = () =>{
     navigation.id = 'navigation';
     const ul = document.createElement('ul');
     navigation.appendChild(ul);
+    ul.appendChild(generateLink('Home'));
+    ul.appendChild(generateLink('About us'));
+    ul.appendChild(generateLink('Contacts'));
+    return navigation
+};
+
+const generateLink = (textContent) => {
     const home = document.createElement('li');
     const homeLink = document.createElement('a');
-    homeLink.textContent = 'Restaurant Page';
+    homeLink.textContent = textContent;
     home.appendChild(homeLink);
-    return navigation
-}
+    return home
+};
 export {navigation};
