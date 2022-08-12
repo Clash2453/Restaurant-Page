@@ -88,23 +88,47 @@ a{
 }
 
 #banner{
-	width: calc(100% - 1rem);
 	height: 75vh;
 	background-color: rgba(0, 0, 0, 0.2);
 	background-image: url(./resources/main-banner.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom;
-	background-size: cover;
+	background-size:cover;
 	background-blend-mode: darken;
 
 	display: flex;
 	align-items: center;
-	padding-left: 1rem;
+	padding-left: 5rem;
 }
 
 #main-header{
 	font-size: 4rem;
-	width: 50%;
+	width: 20rem;
 	color: whitesmoke;
 	font-family: 'Nunito', sans-serif;
+}
+
+.promo-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	padding: 1rem 3rem;
+	height: 20rem;
+	min-height: 300px;
+}
+
+.promo-img{
+	width: 30rem;
+	aspect-ratio: 3/2;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size:cover;
+	background-blend-mode: darken;
+}
+
+.promo-text{
+	color: white;
+	font-size: 1rem;
+	width: 50em;
 }
