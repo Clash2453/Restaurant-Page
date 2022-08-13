@@ -114,21 +114,26 @@ a{
 	align-items: center;
 	gap: 5rem;
 	padding: 1rem 3rem;
-	height: 20rem;
+	height: 30rem;
 	min-height: 300px;
+	overflow: hidden;
+	flex-shrink: 1;
 }
 
 .promo-img{
-	width: 30rem;
-	aspect-ratio: 3/2;
+	width: 20rem;
+	height: 30rem;
+	/* height: 25rem; */
+	/* aspect-ratio: 3/2; */
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: center;
 	background-size:cover;
 	background-blend-mode: darken;
+	margin: 0.5rem 0;
 }
 
 .promo-text{
 	color: white;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	width: 50em;
 }
