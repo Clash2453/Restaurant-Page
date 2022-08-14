@@ -123,8 +123,6 @@ a{
 .promo-img{
 	width: 20rem;
 	height: 30rem;
-	/* height: 25rem; */
-	/* aspect-ratio: 3/2; */
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
@@ -135,5 +133,5 @@ a{
 .promo-text{
 	color: white;
 	font-size: 1.5rem;
-	width: 50em;
+	width: 35em;
 }
