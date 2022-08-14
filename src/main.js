@@ -12,14 +12,14 @@ document.body.appendChild(nav);
 
 document.body.appendChild(content);
 
-function emptyContent() {
+const clearContent = () => {
     while(content.firstChild){
-        content.removeChild(content.childNodes[0])
+        content.removeChild(content.childNodes[0]);
     }
 }
 
 const home = () =>{
-    
+    clearContent();
     content.appendChild(createBanner());
 
 content.appendChild(createSection(meat,'#596F89', "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."));
@@ -28,4 +28,7 @@ content.appendChild(createReverseSection(delivery, '#6D8C9F',"Lorem ipsum dolor 
 
 content.appendChild(createSection(dessert, '#596F89',"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."));    
 }
+
 home();
+
+export {home, clearContent};
