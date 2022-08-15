@@ -55,7 +55,7 @@ table {
 }
 
 /* VARIABLES */
-#contents{
+#content{
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -64,6 +64,8 @@ table {
 
 #navigation{
 	position: absolute;
+	top: 0;
+	z-index: 999;
 	width: calc(100% - 32px) ;
 	height:5vh;
 	background-color: var(--black);
@@ -134,4 +136,29 @@ a{
 	color: white;
 	font-size: 1.5rem;
 	width: 35em;
+}
+
+h1{
+	color: var(--teak);
+	font-family: 'Nunito', sans-serif;
+	font-size: 3rem;
+	height: 5rem;
+}
+
+#about-container{
+	width: 100%;
+	height: 95vh;
+
+	display: flex;
+	justify-content: center;
+
+	padding-top: 16px;
+
+	margin-top: calc(5vh + 16px);
+	background-image: url('./resources/about-us.jpg');
+	background-color: rgba(0, 0, 0, 0.3);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
 }
