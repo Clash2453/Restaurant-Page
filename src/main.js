@@ -31,4 +31,4 @@ content.appendChild(createSection(dessert, '#596F89',"Lorem ipsum dolor sit amet
 
 home();
 
-export {home, clearContent};
+export {home, clearContent, content};
