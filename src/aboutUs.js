@@ -1,7 +1,7 @@
 import { content } from "./main";
 const createAboutPage = () => {
     const aboutHeader = document.createElement('h1');
-    aboutHeader.id = 'about-header'
+    aboutHeader.id = 'main-header'
     const aboutContainer = document.createElement('div');
     const card = document.createElement('div');
     const aboutUsText = document.createElement('p');
