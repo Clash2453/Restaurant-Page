@@ -7,7 +7,7 @@ const createBanner = () =>{
 
 const createHeading = () =>{
     const heading = document.createElement('h1');
-    heading.id = 'main-header';
+    heading.id = 'home-main-header';
     heading.textContent = 'Gourmet restaurant meals';
     return heading;
 }
